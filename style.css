@@ -1,1 +1,46 @@
+body{
 
+    background-color: rgb(132, 135, 137);
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(222, 168, 202);
+    padding: 20px;
+    align-items: center;
+}
+
+
+.cabecalho_imagem{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.cabecalho_menu-listaitem{
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sobre_imagem{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+
+.sobre_texto{
+  text-align: justify;
+  width: 400px ;  
+}
