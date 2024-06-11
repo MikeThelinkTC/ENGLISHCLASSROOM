@@ -1,50 +1,65 @@
-body {
-    background-color: #efe9e9;
-    }
-    
-    header{
+body{
+    width:100%;
+    background-color: rgb(132, 135, 137);
+
+}
+
+header{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background-color: #dd70b5;
-    }
-    
-    footer{
-    background-color: #dd70b5;
-    }
-    
-    .cabecalho_imagem{
-     width: 200px;
-     height: 200px;
-     border-radius: 50%;
-     padding: 20px;
-    }
-    
-    .cabecalho_menu-lista{
-    
-    margin: 20px;
-    
-    }
-    
-    .cabecalho_menu-listaitem{
-        display: inline;
-        text-transform: uppercase;
-        margin-left: 10px;
-    }
-    .sobre{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    
-    }
-    .sobre_imagem{
+    background-color: rgb(222, 168, 202);
+    padding: 20px;
+    align-items: center;
+}
+
+
+.cabecalho_imagem{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.cabecalho_menu-listaitem{
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sobre_imagem{
     width: 400px;
     height: 400px;
     padding: 20px;
-    
-    }
-    
-    .sobre_texto{
-        text-align: justify;
-    
-    }
+}
+
+.sobre_texto{
+  text-align: justify;
+  width: 400px ;  
+}
+
+.elementos{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.container{
+ border: 2px solid black;
+ padding: 20px;
+ text-align: center;
+}
+
+.elementos_container-imagem{
+
+    width: 300px;
+    height: 300px;
+
+}
