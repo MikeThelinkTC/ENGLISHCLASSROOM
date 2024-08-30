@@ -1,65 +1,100 @@
-body{
-    width:100%;
-    background-color: rgb(0, 0, 0);
-
+*{
+    margin: 0;
+    padding: 0;
 }
-
-header{
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #310244;
+    color: white;
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(255, 251, 0);
-    padding: 20px;
+    justify-content: space-around;
     align-items: center;
+    padding: 24px 0;
 }
 
-
-.cabecalho_imagem{
-
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-
+.cabecalho-imagem{
+    width: 10%;
 }
 
-.cabecalho_menu-listaitem{
-    display: inline;
-    text-transform: uppercase;
-    margin-left: 20px;
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
 }
 
-.sobre{
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+#escola{
+    background-image: linear-gradient(#310244,#b63cbd);
+    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 24px 0;
 }
 
-.sobre_imagem{
-    width: 400px;
-    height: 400px;
-    padding: 20px;
+.escola-div-conteudo{
+    width: 35%;
 }
 
-.sobre_texto{
-  text-align: justify;
-  width: 400px ;  
+
+.escola-titulo{
+    padding: 24px 0;
+}
+.escola-texto1{
+    padding: 10px;
+    text-align: justify;
 }
 
-.elementos{
-display: flex;
-flex-wrap: wrap;
-
+#estudante{
+    padding: 24px 0;
 }
 
-.container{
- border: 2px solid black;
- padding: 20px;
- text-align: center;
+
+.estudante-imagem{
+    width: 240px;
 }
 
-.elementos_container-imagem{
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
 
-    width: 300px;
-    height: 300px;
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
 
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-texto{
+    text-align: justify;
+    padding: 10px;
+}
+.estudante-todos{
+    display: grid;
+    grid-template-columns:  33.33% 33.33% 33.33% ;
+}
+
+.rodape{
+    background-image: linear-gradient(#310244,#b63cbd);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
 }
